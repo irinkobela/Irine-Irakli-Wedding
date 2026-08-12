@@ -4,10 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f7f0e6" />
-  <meta name="description" content="დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!" />
+  <meta name="description" content="დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!" />
 
   <meta id="ogTitle" property="og:title" content="ირინე & ირაკლი — 29 სექტემბერი 2026" />
-  <meta id="ogDescription" property="og:description" content="დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!" />
+  <meta id="ogDescription" property="og:description" content="დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="petals" class="petals" aria-hidden="true"></div>
   <header class="topbar">
     <a class="monogram" href="#home" aria-label="Home">I & I</a>
     <nav>
@@ -32,13 +33,13 @@
 
   <main>
     <section id="home" class="hero paper-section">
-      <div class="botanical botanical-left" aria-hidden="true">❦</div>
-      <div class="botanical botanical-right" aria-hidden="true">❦</div>
+      <img class="corner-accent corner-tl" src="assets/hero-roses.png" alt="" aria-hidden="true" />
+      <img class="corner-accent corner-br" src="assets/hero-olive-lemon.png" alt="" aria-hidden="true" />
       <div class="hero-copy">
-        <p class="eyebrow" data-i18n="invite">დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!</p>
+        <p class="eyebrow" data-i18n="invite">დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!</p>
         <h1><span data-i18n="irine">ირინე</span> <em>&</em> <span data-i18n="irakli">ირაკლი</span></h1>
         <p class="date" data-i18n="date">29 სექტემბერი 2026</p>
-        <div class="flourish">— ❦ —</div>
+        <div class="divider" aria-hidden="true"></div>
         <div id="countdown" class="countdown" aria-label="Wedding countdown">
           <div><strong id="days">00</strong><span data-i18n="days">დღე</span></div>
           <div><strong id="hours">00</strong><span data-i18n="hours">საათი</span></div>
@@ -50,13 +51,6 @@
           <button id="addToCalendar" class="button secondary" type="button" data-i18n="calendar">კალენდარში დამატება</button>
         </div>
       </div>
-
-      <figure class="hero-photo reveal visible">
-        <img id="heroImage" src="assets/invitation-ka.jpg" alt="ირინე და ირაკლი — ქორწილის მოსაწვევი" />
-      </figure>
-
-      <div class="lemon lemon-one" aria-hidden="true">🍋</div>
-      <div class="lemon lemon-two" aria-hidden="true">🍋</div>
     </section>
 
     <section id="details" class="details paper-section">
@@ -64,14 +58,12 @@
       <h2 data-i18n="celebrate">გაიზიარეთ ჩვენი სიხარული</h2>
       <div class="event-grid">
         <article class="event-card">
-          <div class="icon">♱</div>
           <h3 data-i18n="ceremony">ჯვრისწერა</h3>
           <p class="venue" data-i18n="monastery">სამთავროს მონასტერი, მცხეთა</p>
           <p class="time">14:00</p>
           <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Samtavro+Monastery+Mtskheta" target="_blank" rel="noopener" data-i18n="map">რუკაზე ნახვა</a>
         </article>
         <article class="event-card">
-          <div class="icon">✦</div>
           <h3 data-i18n="reception">წვეულება</h3>
           <p class="venue" data-i18n="lisi">ლისი ივენთ ჰოლი, თბილისი</p>
           <p class="time">17:00</p>
@@ -79,12 +71,8 @@
         </article>
       </div>
       <div class="dress-code">
-        <span>❦</span>
         <h3 data-i18n="dress">დრეს კოდი</h3>
         <p data-i18n="whiteBride">თეთრი ფერი მხოლოდ პატარძლისთვის.</p>
-      </div>
-      <div class="church-sketch" aria-hidden="true">
-        <div class="dome"></div><div class="church-body"></div><div class="tower left"></div><div class="tower right"></div>
       </div>
     </section>
 
@@ -112,7 +100,7 @@
   </main>
 
   <footer>
-    <div>❦</div>
+    <img class="footer-accent" src="assets/footer-lemon.png" alt="" aria-hidden="true" />
     <p>Irine & Irakli · 29.09.2026</p>
   </footer>
 
