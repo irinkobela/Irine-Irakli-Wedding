@@ -28,10 +28,10 @@ const translations = {
   },
   ka: {
     navDetails:"დეტალები", rsvpNav:"RSVP",
-    invite:"დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!",
+    invite:"დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!",
     irine:"ირინე", irakli:"ირაკლი", date:"29 სექტემბერი 2026",
     days:"დღე", hours:"საათი", minutes:"წუთი", seconds:"წამი",
-    rsvpButton:"დასწრების დადასტურება", ourDay:"ჩვენი დღე", celebrate:"გაიზიარეთ ჩვენი სიხარული",
+    rsvpButton:"დასწრების დადასტურება", ourDay:"ჩვენი დღე", celebrate:"გაიზიარეთ ჩვენი სიყვარული",
     ceremony:"ჯვრისწერა", monastery:"სამთავროს მონასტერი, მცხეთა",
     reception:"წვეულება", lisi:"ლისი ივენთ ჰოლი, თბილისი", map:"რუკაზე ნახვა",
     calendar:"კალენდარში დამატება", dress:"დრეს კოდი", whiteBride:"თეთრი ფერი მხოლოდ პატარძლისთვის.",
@@ -215,7 +215,9 @@ const petalContainer = document.getElementById("petals");
 const petalTints = [
   "rgba(216,166,138,0.95)", // rose
   "rgba(122,127,90,0.85)",  // olive
-  "rgba(200,143,98,0.85)"   // terracotta
+  "rgba(200,143,98,0.85)",   // terracotta
+  "rgba(244, 209, 106, 0.85)",   
+  "rgba(216, 216, 138, 0.85)"
 ];
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
