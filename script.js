@@ -2,7 +2,7 @@
 // IRINE & IRAKLI — WEDDING RSVP
 // Paste your deployed Google Apps Script /exec URL below.
 // ============================================================
-const SCRIPT_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbysAUzjoLllFmmwocqmtVhtOt4HkCav5x-JvO5cm5Kgf-8jEM5I5LfEIeqoRlVAi55ATQ/exec";
 
 const translations = {
   en: {
