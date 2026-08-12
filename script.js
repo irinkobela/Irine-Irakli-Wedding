@@ -54,13 +54,11 @@ const langToggle = document.getElementById("langToggle");
 const ogTitle = document.getElementById("ogTitle");
 const ogDescription = document.getElementById("ogDescription");
 const metaDescription = document.querySelector('meta[name="description"]');
-const heroImage = document.getElementById("heroImage");
 
 function setLanguage(lang){
   language = lang;
   document.documentElement.lang = lang;
   langToggle.textContent = lang === "en" ? "ქარ" : "ENG";
-  if (heroImage) heroImage.src = `assets/invitation-${lang}.jpg`;
 
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
@@ -211,3 +209,34 @@ form.addEventListener("submit", async (e) => {
     submit.textContent = translations[language].confirm;
   }
 });
+
+// Falling petals background.
+const petalContainer = document.getElementById("petals");
+const petalTints = [
+  "rgba(216,166,138,0.95)", // rose
+  "rgba(122,127,90,0.85)",  // olive
+  "rgba(200,143,98,0.85)"   // terracotta
+];
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function spawnPetal(){
+  if (!petalContainer) return;
+  const petal = document.createElement("div");
+  petal.className = "petal";
+  const size = 14 + Math.random() * 14;
+  const duration = 9 + Math.random() * 8;
+  const delay = -Math.random() * duration;
+  const drift = (Math.random() - 0.5) * 180;
+  petal.style.setProperty("--x", `${Math.random() * 100}vw`);
+  petal.style.setProperty("--size", `${size}px`);
+  petal.style.setProperty("--dur", `${duration}s`);
+  petal.style.setProperty("--delay", `${delay}s`);
+  petal.style.setProperty("--drift", `${drift}px`);
+  petal.style.setProperty("--tint", petalTints[Math.floor(Math.random() * petalTints.length)]);
+  petalContainer.appendChild(petal);
+}
+
+if (petalContainer && !prefersReducedMotion) {
+  const petalCount = window.innerWidth < 700 ? 16 : 28;
+  for (let i = 0; i < petalCount; i++) spawnPetal();
+}
