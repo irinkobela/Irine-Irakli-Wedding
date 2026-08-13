@@ -6,47 +6,47 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbysAUzjoLllFmmwocqmt
 
 const translations = {
   en: {
-    navDetails:"Details", rsvpNav:"RSVP",
-    invite:"WE WHOLEHEARTEDLY INVITE YOU TO CELEBRATE OUR WEDDING WITH US.",
-    irine:"Irine", irakli:"Irakli", date:"29 SEPTEMBER 2026",
-    days:"DAYS", hours:"HOURS", minutes:"MINUTES", seconds:"SECONDS",
-    rsvpButton:"RSVP", ourDay:"OUR DAY", celebrate:"Celebrate With Us",
-    ceremony:"CHURCH CEREMONY", monastery:"Samtavro Monastery, Mtskheta",
-    reception:"RECEPTION", lisi:"Lisi Event Hall, Tbilisi", map:"VIEW ON MAP",
-    calendar:"ADD TO CALENDAR", dress:"DRESS CODE", whiteBride:"White is reserved for the bride.",
-    joining:"Will you be celebrating with us?",
-    replyIntro:"Please let us know if you'll be joining us on our special day.",
-    yes:"YES, WITH PLEASURE ♡", no:"UNFORTUNATELY, NO",
-    nameLabel:"Your full name", namePlaceholder:"Name and surname",
-    namesHint:"If replying for a couple or family, you can enter all names here.",
-    confirm:"CONFIRM RSVP",
-    thanksYes:"Thank you! ♡ Your RSVP has been received. We can't wait to celebrate with you!",
-    thanksNo:"Thank you for letting us know. You will be missed. ♡",
-    sending:"Sending…", error:"Something went wrong. Please try again.",
-    metaTitle:"Irine & Irakli — 29 September 2026",
-    metaDescription:"We wholeheartedly invite you to celebrate our wedding with us."
-  },
-  ka: {
-    navDetails:"დეტალები", rsvpNav:"RSVP",
-    invite:"დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!",
-    irine:"ირინე", irakli:"ირაკლი", date:"29 სექტემბერი 2026",
-    days:"დღე", hours:"საათი", minutes:"წუთი", seconds:"წამი",
-    rsvpButton:"დასწრების დადასტურება", ourDay:"ჩვენი დღე", celebrate:"გაიზიარეთ ჩვენი სიყვარული",
-    ceremony:"ჯვრისწერა", monastery:"სამთავროს მონასტერი, მცხეთა",
-    reception:"წვეულება", lisi:"ლისი ივენთ ჰოლი, თბილისი", map:"რუკაზე ნახვა",
-    calendar:"კალენდარში დამატება", dress:"დრეს კოდი", whiteBride:"თეთრი ფერი მხოლოდ პატარძლისთვის.",
-    joining:"შემოგვიერთდებით?",
-    replyIntro:"გთხოვთ, დაგვიდასტუროთ შეძლებთ თუ არა ჩვენს განსაკუთრებულ დღეს ჩვენთან ერთად ყოფნას.",
-    yes:"დიახ, სიამოვნებით ♡", no:"სამწუხაროდ, ვერ მოვალ",
-    nameLabel:"სახელი და გვარი", namePlaceholder:"სახელი და გვარი",
-    namesHint:"თუ პასუხობთ წყვილის ან ოჯახის სახელით, შეგიძლიათ ყველა სახელი აქ ჩაწეროთ.",
-    confirm:"დადასტურება",
-    thanksYes:"გმადლობთ! ♡ თქვენი პასუხი მიღებულია. მოუთმენლად ველით თქვენთან ერთად აღნიშვნას!",
-    thanksNo:"გმადლობთ, რომ შეგვატყობინეთ. დაგვაკლდებით. ♡",
-    sending:"იგზავნება…", error:"დაფიქსირდა შეცდომა. გთხოვთ, სცადოთ თავიდან.",
-    metaTitle:"ირინე & ირაკლი — 29 სექტემბერი 2026",
-    metaDescription:"დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!"
-  }
+  navDetails:"Details", rsvpNav:"RSVP",
+  invite:"WE WHOLEHEARTEDLY INVITE YOU TO CELEBRATE OUR WEDDING WITH US 💍",
+  irine:"Irine", irakli:"Irakli", date:"29 SEPTEMBER 2026",
+  days:"DAYS", hours:"HOURS", minutes:"MINUTES", seconds:"SECONDS",
+  rsvpButton:"RSVP 💌", ourDay:"OUR DAY", celebrate:"Celebrate With Us ✨",
+  ceremony:"CHURCH CEREMONY 🕊️", monastery:"Samtavro Monastery, Mtskheta",
+  reception:"RECEPTION 🥂", lisi:"Lisi Event Hall, Tbilisi", map:"VIEW ON MAP",
+  calendar:"ADD TO CALENDAR 📅", dress:"DRESS CODE", whiteBride:"White is reserved for the bride 🤍",
+  joining:"Will you be celebrating with us? 💫",
+  replyIntro:"Please let us know if you'll be joining us on our special day.",
+  yes:"YES, WITH PLEASURE ❤️", no:"UNFORTUNATELY, NO",
+  nameLabel:"Your full name", namePlaceholder:"Name and surname",
+  namesHint:"If replying for a couple or family, you can enter all names here.",
+  confirm:"CONFIRM RSVP",
+  thanksYes:"Thank you! ❤️ RSVP has been received. We can't wait to celebrate with you!",
+  thanksNo:"Thank you for letting us know. You will be missed. 🤍",
+  sending:"Sending…", error:"Something went wrong. Please try again.",
+  metaTitle:"Irine & Irakli — 29 September 2026",
+  metaDescription:"We wholeheartedly invite you to celebrate our wedding with us."
+},
+ ka: {
+  navDetails:"დეტალები", rsvpNav:"RSVP",
+  invite:"დიდი სიყვარულითა და პატივისცემით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად! 💍",
+  irine:"ირინე", irakli:"ირაკლი", date:"29 სექტემბერი 2026",
+  days:"დღე", hours:"საათი", minutes:"წუთი", seconds:"წამი",
+  rsvpButton:"დასწრების დადასტურება 💌", ourDay:"ჩვენი დღე", celebrate:"გაიზიარეთ ჩვენი სიყვარული ✨",
+  ceremony:"ჯვრისწერა 🕊️", monastery:"სამთავროს მონასტერი, მცხეთა",
+  reception:"წვეულება 🥂", lisi:"ლისი ივენთ ჰოლი, თბილისი", map:"რუკაზე ნახვა",
+  calendar:"კალენდარში დამატება 📅", dress:"დრეს კოდი", whiteBride:"თეთრი ფერი მხოლოდ პატარძლისთვის 🤍",
+  joining:"შემოგვიერთდებით? 💫",
+  replyIntro:"გთხოვთ, დაგვიდასტუროთ შეძლებთ თუ არა ჩვენს განსაკუთრებულ დღეს ჩვენთან ერთად ყოფნას.",
+  yes:"დიახ, სიამოვნებით ❤️", no:"სამწუხაროდ, ვერ მოვალ",
+  nameLabel:"სახელი და გვარი", namePlaceholder:"სახელი და გვარი",
+  namesHint:"თუ პასუხობთ წყვილის ან ოჯახის სახელით, შეგიძლიათ ყველა სახელი აქ ჩაწეროთ.",
+  confirm:"დადასტურება",
+  thanksYes:"გმადლობთ! ❤️ თქვენი პასუხი მიღებულია. მოუთმენლად ველით თქვენთან ერთად აღნიშვნას!",
+  thanksNo:"გმადლობთ, რომ შეგვატყობინეთ. დაგვაკლდებით. 🤍",
+  sending:"იგზავნება…", error:"დაფიქსირდა შეცდომა. გთხოვთ, სცადოთ თავიდან.",
+  metaTitle:"ირინე & ირაკლი — 29 სექტემბერი 2026",
+  metaDescription:"დიდი სიყვარულითა და სიხარულით გეპატიჟებით ჩვენი ქორწილის აღსანიშნავად!"
+}
 };
 
 let language = "ka";
@@ -217,7 +217,9 @@ const petalTints = [
   "rgba(122,127,90,0.85)",  // olive
   "rgba(200,143,98,0.85)",   // terracotta
   "rgba(244, 209, 106, 0.85)",   
-  "rgba(216, 216, 138, 0.85)"
+  "rgba(216, 216, 138, 0.85)",
+  "rgba(251, 255, 243, 0.85)",
+  "rgba(248, 195, 255, 0.85)"
 ];
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
