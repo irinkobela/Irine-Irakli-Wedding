@@ -52,7 +52,7 @@ body{
    DECORATIVE ACCENTS
 ------------------------------ */
 
-.corner-accent{
+.paper-section .corner-accent{
   position:absolute;
   z-index:3;
   pointer-events:none;
@@ -212,9 +212,7 @@ body{
 
 .paper-section{
   position:relative;
-  z-index:2;
   overflow:hidden;
-  isolation:isolate;
 
   background:
     radial-gradient(
