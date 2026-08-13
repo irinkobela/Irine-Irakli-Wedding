@@ -218,8 +218,12 @@ const petalTints = [
   "rgba(200,143,98,0.85)",   // terracotta
   "rgba(244, 209, 106, 0.85)",   
   "rgba(216, 216, 138, 0.85)",
-  "rgba(251, 255, 243, 0.85)",
-  "rgba(248, 195, 255, 0.85)"
+  "rgba(251, 246, 234, 0.85)", // soft ivory — matches your --paper variable
+"rgba(155, 157, 122, 0.85)", // dusty sage — matches your --sage variable
+"rgba(223, 169, 122, 0.85)", // warm apricot
+"rgba(212, 175, 116, 0.85)", // soft gold
+"rgba(168, 100, 66, 0.6)"   // 
+
 ];
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
